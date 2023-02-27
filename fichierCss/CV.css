@@ -24,3 +24,16 @@ header {
     color: rgb(51, 14, 86);
     text-decoration: none;
 }
+
+
+.wrapper {
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+    
+}
