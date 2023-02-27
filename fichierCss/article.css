@@ -1,19 +1,23 @@
 html {
-    width: 55em;
+    width:55em; 
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
 }
 
-.h1 {
-    font-family: 'Abril Fatface', cursive;
+h1, h2, h3, h4 {
+    font-size: 32px;
+    font-family: 'Tilt Prism', cursive;
 }
 
-.p {
-    font-family: 'Montserrat', sans-serif;
+p {
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 
-
+h4 {
+    font-size: 16px;
+}
 
 
 .àpropos {
@@ -23,7 +27,10 @@ html {
     align-content: space-between;
 }
 
-
+.texte{
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: -3%;
+}
 
 
 .illustration {
