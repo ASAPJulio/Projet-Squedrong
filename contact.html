@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/fichierCss/cssecriture.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 
 
 
-   
+
     <title>Contact</title>
+</head>
+
+<body>
     <header>
         <div>
             <img src="img/logo.jpg" alt="logo du site" class="logoSite">
@@ -31,22 +35,46 @@
 
 
 
+    <article>
+        <section class="coordonees">
+            <h2>Contactez nous!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nesciunt corrupti, beatae ullam ab nulla
+                cum saepe aliquam, maxime mollitia exercitationem cumque doloribus ducimus voluptates atque minus
+                voluptas sequi ipsa.</p><br><br><br>
+            
+            <a class="lien-contact" href="mailto:">info@simplon.fr</a><br>
+            <a class="lien-contact" href="tel:+33"> 06 46 40 01 65</a><br>
+            <a class="lien-contact" href="http://">www.simplon.fr</a>
+
+        </section>
+
+        <section class="identification">
+            <h2>Envoyez nous un message</h2>
+            <label for="nom" name="nomdefamille">Nom : </label><br>
+            <input class="nom" type="text" name="nomdefamille" placeholder="Votre nom" id="nom"><br><br>
+
+            <div class="ligne-deux">
+                <div class="partie-gauche"> <label for="telephone" name="tel">telephone :</label>
+                    <input class="tel" type="number" name="tel" id="telephone">
+                </div>
+                <div class="partie-droite"> <label for="email" name="couriel">votre adresse mail : </label> <br>
+                    <input class="tel" type="email" name="couriel" id="email" placeholder="johndoe@gmail.com">
+                </div>
+
+            </div>
+            <br><label for="societes" name="society">sociétés : </label><br>
+            <input class="nom" type="text" name="society" placeholder="Votre entreprise" id="societes"><br><br>
+            <label for="message">Votre message</label><br>
+            <textarea cols="50px" rows="5px" placeholder="indiquez votre message"></textarea>
+
+            <br><br><button>envoyer le message</button>
+        </section>
+    </article>
 
 
 
-    </head>
-
-<body>
-    <div class="entete">
-
-
-
-    </div>
-
-    <h1>Contactez nous!</h1>
-
-    <form method="get" action="">
- <fieldset>       
+    <!-- <form method="get" action="">
+        
         <div class="renseignements">
         <label for="nom"  name="nomdefamille">Nom : </label>
             <input type="text" name="nomdefamille" placeholder="Votre nom" id="nom">
@@ -56,13 +84,12 @@
             <br><br>
 
         <label for="email" name="couriel">votre adresse mail : </label>
-            <input type="email" name="couriel" id="email" placeholder="johndoe@gmail.com">
+            <input type="email" name="couriel" id="email" placeholder="johndoe@gmail.com"><br><br>
         
         <label for="telephone" name="tel">telephone :</label> 
            <input type="number" name="tel" id="telephone">
 
-        <label for="naissance" name="datenaissance">
-            <input type="date" name="datenaissance" id="naissance">
+        
         
             
 
@@ -70,38 +97,14 @@
     </div>
         <br><br>
 
-        <fieldset>
-
+       
         <div class="adresse">
 
-            <label for="adress" name="adresse postale">numero  :</label>
-                <input type="number" name="adresse postale" id="adress" placeholder="numero">
 
-                <label for="type">type :</label><select name="typederue" id="type">
-                    <option value="rue">Rue</option>
-                    <option value="avenue">Avenue</option>
-                    <option value="boulevard">boulevard</option>
-                    <option value=chemin>chemin</option>
-                    <option value="route">route</option>
-                    <option value="quai">Quai</option>
-                    <option value="allee">alée</option>
-                    <option value="impasse">impasse</option>
-                    <option value="cours">cours</option>
-                    <option value="place">place</option>
-                    <option value="ruelle" >ruelle</option> 
-                    <option value="square">square</option> 
-                    <option value="autres">autres</option>
-                    <input type="text" name="precis" id="type" placeholder="préciser le type de rue">
-                
-                    <label for="codepostal" name="code">votre code postal</label> 
-                    <input type="number" name="code" id="codepostal">
-
-                <label for="ville" name="votreville">votre ville :</label>  
-                    <input type="text" name="votreville" id="ville" placeholder="indiquez votre ville">
 
 </select> 
         
-            </fieldset>
+           
         
 
 
@@ -122,9 +125,9 @@
         <label for="courrier" name="choixrad">courrier</label>
             <input type="radio" name="choixrad" id="courrier">
 
-    </fieldset>
+   
     <h1>un commentaire, une suggestion ,un message? </h1>
-    <fieldset>
+   
 
         <p>vous avez une remarque? un commentaire lachez vous ! </p>
 <textarea> 
@@ -161,4 +164,4 @@
 
 </footer>
 
-</html>
+</html> 
