@@ -1,0 +1,81 @@
+html {
+    width: 55em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+.àpropos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+
+
+
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 10px;
+
+}
+
+
+
+.bouton {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.TWIT {
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(69, 177, 255);
+    display: flex;
+    width: 100px;
+}
+
+.TWIT a {
+    color: white;
+}
+
+.LINKE {
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(34, 76, 168);
+    display: flex;
+    width: 100px;
+}
+
+.LINKE a {
+    color: white;
+}
+
+.MED {
+    padding: 15px 30px 15px 30px;
+    background-color: black;
+    display: flex;
+    width: 100px;
+}
+
+.MED a {
+    color: white;
+}
+
+.basdepage {
+    display: flex;
+    margin: auto;
+}

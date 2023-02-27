@@ -1,0 +1,35 @@
+html{
+    width: 55em;
+    margin-left: auto;
+margin-right: auto;
+}
+
+h1 {
+
+    font-family: 'Abril Fatface', cursive;
+}
+form{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+
+   }
+   header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lienNav, .lienDecaler {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.42);
+    padding-left: 20px;
+}
+
+.motCleBloc {
+    color: rgb(51, 14, 86);
+    text-decoration: none;
+}
+
+

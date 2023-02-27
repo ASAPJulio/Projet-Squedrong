@@ -1,0 +1,126 @@
+html {
+    width: 55em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lienNav, .lienDecaler {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.42);
+    padding-left: 20px;
+}
+
+.motCleBloc {
+    color: rgb(51, 14, 86);
+    text-decoration: none;
+}
+
+.bouton {
+    display: flex;
+}
+
+.articleBienvenue {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: rgb(207, 16, 16);
+    font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin-top: -15px;
+}
+
+.articleBienvenueGauche {
+    width: 55%;
+}
+
+.bouton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TWIT {
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(69, 177, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin-right: 15px;
+}
+
+.TWIT a {
+    color: white;
+}
+
+.LINKE {
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(34, 76, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin-right: 15px;
+
+}
+
+.LINKE a {
+    color: white;
+}
+
+.MED {
+    padding: 15px 30px 15px 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin-right: 15px;
+}
+
+.MED a {
+    color: white;
+}
+
+.blogUn {
+    width: 30em;
+
+}
+
+h3 {
+    color: rgb(201, 4, 4);
+    font-weight: bold;
+}
+
+.enSavoirPlus {
+    color: rgb(224, 40, 40);
+    font-weight: bold;
+}
+.ligne {
+    display: flex;
+    justify-content: space-between;
+}
+.un {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+.deux {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
