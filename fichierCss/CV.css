@@ -1,0 +1,26 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 800;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+    width: 55em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lienNav, .lienDecaler {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.42);
+    padding-left: 20px;
+}
+
+.motCleBloc {
+    color: rgb(51, 14, 86);
+    text-decoration: none;
+}
