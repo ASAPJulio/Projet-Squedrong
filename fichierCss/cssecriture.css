@@ -34,22 +34,22 @@ header {
 
 .coordonees {
     padding: 50px;
-
-    background-color: rgba(97, 97, 97, 0.281);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-color: grey;
 }
 
 .identification {
     padding: 50px;
-    background-color: whitesmoke;
 }
 
 article {
+    color: rgb(255, 255, 255);
     display: flex;
-
+background-size: cover;
+background-image:   url(/img/bureaucontact.jpg) ;
 }
 
 .nom {
@@ -63,12 +63,15 @@ article {
 }
 
 .lien-contact{
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 
 }
-
+.zone-text{
+    width: 350px;
+    height: 50px;
+}
 
 
 
