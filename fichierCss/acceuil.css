@@ -13,7 +13,8 @@ header {
     justify-content: space-between;
 }
 
-.lienNav, .lienDecaler {
+.lienNav,
+.lienDecaler {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.42);
     padding-left: 20px;
@@ -109,18 +110,65 @@ h3 {
     color: rgb(224, 40, 40);
     font-weight: bold;
 }
+
 .ligne {
     display: flex;
     justify-content: space-between;
 }
+
 .un {
     display: flex;
     justify-content: space-between;
     margin-top: 120px;
     margin-bottom: 70px;
 }
+
 .deux {
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
+}
+
+footer {
+    background-color:rgba(230, 229, 229, 0.521);
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.footHaut {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.titreTois {
+    color: white;
+}
+
+.couleurParagraphe {
+    color: rgb(128, 128, 128);
+}
+
+.footHautGauche {
+    width: 50%;
+}
+
+.footHautCentre {
+    width: 20%;
+}
+
+.footHautDroit {
+    width: 20%;
+}
+
+.mentions-legal {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    background-color:rgba(120, 120, 120, 0.521);;
+    color: rgb(128, 128, 128);
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
