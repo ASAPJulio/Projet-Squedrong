@@ -1,86 +1,68 @@
 html {
-    font-family: 'Montserrat', sans-serif;
-    font-size: large;
-    font-weight: 800;
-    text-align: justify;
-    margin-right: auto;
-    margin-left: auto;
-    width: 55em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+  font-weight: 800;
+  text-align: justify;
+  margin-right: auto;
+  margin-left: auto;
+  width: 55em;
 }
 
 h1 {
-    font-family: 'Abril Fatface', cursive;
-    padding-left: 2%;
-    color: rgb(207, 16, 16);
-    font-size: large;
+  font-family: 'Abril Fatface', cursive;
+  padding-left: 2%;
+  color: rgb(207, 16, 16);
+  font-size: large;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.lienNav, .lienDecaler {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.42);
-    padding-left: 20px;
+.lienNav,
+.lienDecaler {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.42);
+  padding-left: 20px;
 }
 
 .motCleBloc {
-    color: rgb(51, 14, 86);
-    text-decoration: none;
+  color: rgb(51, 14, 86);
+  text-decoration: none;
 }
-
 
 .wrapper {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 20px;
-        
-}
-        
-  /*display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-  
-  .card {
-    border: 3px solid;
-    border-radius: 5px;
-    font-size: large;
-    font-weight: 900;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 20px;
+  border: solid #333;
+  margin-bottom: 3%;
+
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px 100px 100px;
-    grid-gap: 10px;
+.prof {
+  margin-top: 5%;
+  border-radius: 10px;
+  margin-left: 30%;
+  width: 200px;
 }
-  */
 
+.quatre,
+.deux,
+.trois {
+  margin-top: 10%;
+}
 
-  .prof { 
-    margin-top: 5%;
-    border-radius: 10px;
-    margin-left: 30%;
-    width: 200px;
-  }
-
-  .quatre, .deux, .trois {
-    margin-top: 10%;
-  }
-
-  .one, .three, .five, .seven {
-    text-align: justify;
-    margin-top: 5%;
-    margin-left: 5%;
-  }
+.one,
+.four,
+.five,
+.eight {
+  text-align: justify;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}

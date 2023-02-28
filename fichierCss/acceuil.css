@@ -67,6 +67,24 @@ h2 {
     color: white;
 }
 
+.twitter {
+    width: 25px;
+}
+
+.medium {
+    width: 40px;
+}
+
+.arbre {
+    width: 400px;
+}
+
+.asideun {
+    width: 95%;
+}
+
+
+
 .LINKE {
     padding: 15px 30px 15px 30px;
     background-color: rgb(34, 76, 168);

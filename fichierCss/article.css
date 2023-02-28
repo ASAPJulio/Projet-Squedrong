@@ -58,7 +58,18 @@ h4 {
 
 }
 
+.twitter {
+    width: 25px;
+}
 
+.medium {
+    width: 40px;
+}
+
+.arbre {
+    width: 200px ;
+    height: 200px ;
+}
 
 .bouton {
     display: flex;
