@@ -1,5 +1,5 @@
 html {
-    width:55em; 
+    width: 55em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -11,7 +11,8 @@ header {
     justify-content: space-between;
 }
 
-.lienNav, .lienDecaler {
+.lienNav,
+.lienDecaler {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.42);
     padding-left: 15px;
@@ -22,7 +23,10 @@ header {
     text-decoration: none;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-size: 32px;
     font-family: 'Tilt Prism', cursive;
 }
@@ -44,9 +48,9 @@ h4 {
     align-content: space-between;
 }
 
-.texte{
-   font-family: Arial, Helvetica, sans-serif;
-   margin-top: -3%;
+.texte {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -3%;
 }
 
 
@@ -67,8 +71,8 @@ h4 {
 }
 
 .arbre {
-    width: 200px ;
-    height: 200px ;
+    width: 200px;
+    height: 200px;
 }
 
 .bouton {

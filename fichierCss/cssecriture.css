@@ -1,18 +1,22 @@
 html {
-    width: 55em;
+    width: 1100px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20.8px;
 }
 
 h1 {
 
     font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    color: rgb(207, 16, 16);
 }
 
 form {
     font-family: 'Montserrat', sans-serif;
+    font-size: large;
 }
-
 
 header {
     display: flex;
@@ -38,7 +42,7 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-color: grey;
+    background-color: rgb(135, 133, 133);
 }
 
 .identification {
@@ -46,10 +50,12 @@ header {
 }
 
 article {
-    color: rgb(255, 255, 255);
+    color: rgb(225, 221, 221);
     display: flex;
     background-size: cover;
     background-image: url("../img/bureaucontact.jpg");
+    font-size: large;
+    font-weight: 900;
 }
 
 .nom {
