@@ -49,7 +49,11 @@ article {
     color: rgb(255, 255, 255);
     display: flex;
 background-size: cover;
+<<<<<<< HEAD
 background-image: url(img/bureaucontact.jpg);
+=======
+background-image:   url(img/bureaucontact.jpg) ;
+>>>>>>> 511df82be231d6394a2c65c02a2eb8a5f8d85e9a
 }
 
 .nom {
