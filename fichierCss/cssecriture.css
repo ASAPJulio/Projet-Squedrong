@@ -48,12 +48,8 @@ header {
 article {
     color: rgb(255, 255, 255);
     display: flex;
-background-size: cover;
-<<<<<<< HEAD
-background-image: url(img/bureaucontact.jpg);
-=======
-background-image:   url(img/bureaucontact.jpg) ;
->>>>>>> 511df82be231d6394a2c65c02a2eb8a5f8d85e9a
+    background-size: cover;
+    background-image: url(img/bureaucontact.jpg);
 }
 
 .nom {
@@ -66,19 +62,14 @@ background-image:   url(img/bureaucontact.jpg) ;
 
 }
 
-.lien-contact{
+.lien-contact {
     color: white;
     text-decoration: none;
     font-weight: bold;
 
 }
-.zone-text{
+
+.zone-text {
     width: 350px;
     height: 50px;
 }
-
-
-
-
-
-
